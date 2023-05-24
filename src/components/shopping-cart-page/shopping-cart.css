@@ -1,0 +1,227 @@
+.shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.shop-left__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-left {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 18px;
+    padding-right: 28px;
+    width: 587px;
+    margin-bottom: 30px;
+}
+
+.cart-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 20px;
+}
+
+.shop-left__case {
+    margin-top: -17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shop-left__case-img {
+    height: 136px;
+    margin-right: 23px;
+}
+
+.shop-left__case-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.shop-left__case-text__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #1C1C27;
+    margin-bottom: 12px;
+}
+
+.shop-left__case-text__price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #AAAAAA;
+
+}
+
+.shop-left__bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-left__bottom-calculator {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shop-left__bottom-calculator__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFCE7F;
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+
+}
+
+.shop-left__bottom-calculator__data {
+    width: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+    text-align: center;
+}
+
+.shop-left__bottom-calculator__btn {
+    cursor: pointer;
+    transition: 0.44s;
+}
+
+.shop-left__bottom-calculator__btn:hover {
+    background: #000;
+}
+
+.shop-left__bottom-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #1C1C27;
+}
+
+
+
+.shop-right {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 20px 20px;
+    width: 348.98px;
+}
+
+.shop-right__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+
+.shop-right__top-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.shop-right__top-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+.shop-right__btn {
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    transition: 0.44s;
+    text-decoration: none;
+}
+
+.shop-right__btn:hover {
+    background: #FFCE7F;
+}
+
+.shop {
+    margin-bottom: 407px;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #838383;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
